@@ -1,0 +1,165 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidebar .nav {
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.sidebar .nav-link {
+    border-radius: 0;
+}
+
+.sidebar hr{
+    color: black;
+    border: 1px;
+}
+
+/*
+ * Dashboard
+ */
+
+
+/*
+*Main
+ */
+main {
+    padding: 20px;
+}
+/* Placeholders */
+.placeholders {
+    padding-bottom: 3rem;
+}
+
+.placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.btn-form{
+    margin-left: 2px;
+    width: 40px;
+}
+
+table .fas{
+    color: #fff;
+}
+
+/*Table*/
+#table {
+    margin-left: 0;
+}
+
+#table .form-group{
+    margin-bottom: 0;
+}
+
+.circle-color {
+    text-align: center;
+}
+.fa-circle{
+    font-size: large;
+}
+
+/*Color of status and priority*/
+.td-status, .td-priority{
+font-weight: bold;
+}
+
+/*
+*User profile
+*/
+#user-info{
+    padding-bottom: 10px;
+}
+.left-side,
+.right-side {
+    margin: 0;
+    float: left;
+}
+
+.left-side{
+    width: 30%;
+    background-color: #F2F2F2;
+}
+
+.right-side{
+    width: 70%;
+}
+
+.left-side-task,
+.right-side-task {
+    margin: 0;
+    float: left;
+
+}
+
+.left-side-task{
+    width: 70%;
+}
+
+.right-side-task{
+    width: 30%;
+}
+
+#user-info{
+    padding-bottom: 0;
+}
+
+
+
+
+/*
+* notification
+*/
+
+.title-notification{
+    background-color: #F3F3F3;
+}
+
+.dropdown-menu a{
+    color: black !important;
+}
